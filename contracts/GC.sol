@@ -4,7 +4,7 @@ contract GC is StandardToken{
 	string public name='Game Chain';
 	string public symbol='GC';
 	uint public decimals=9;
-  uint public INITIAL_SUPPLY=1000000000000000000;
+  uint public INITIAL_SUPPLY=500000000000000000;
   uint award = 100000000;
   uint start;
   event Award(address to,uint256 val);
